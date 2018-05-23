@@ -1,0 +1,12 @@
+name: error_generator
+title: Error Generator
+username: cole
+account: cole
+server: colorado.rstudio.com
+hostUrl: http://colorado.rstudio.com:3939/__api__
+appId: 1148
+bundleId: 7745
+url: http://colorado.rstudio.com:3939/generate-error/
+when: 1527081769.37992
+asMultiple: FALSE
+asStatic: FALSE
