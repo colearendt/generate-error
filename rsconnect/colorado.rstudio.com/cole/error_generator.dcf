@@ -5,8 +5,8 @@ account: cole
 server: colorado.rstudio.com
 hostUrl: http://colorado.rstudio.com:3939/__api__
 appId: 1148
-bundleId: 7745
+bundleId: 15161
 url: http://colorado.rstudio.com:3939/generate-error/
-when: 1527081769.37992
+when: 1535032132.72424
 asMultiple: FALSE
 asStatic: FALSE
