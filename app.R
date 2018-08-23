@@ -8,7 +8,8 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            actionButton("error", "Generate Error")
+            actionButton("error", "Generate Error"),
+            actionButton("quit", "Quit R Session")
         ),
         
         # Show a plot of the generated distribution
@@ -29,6 +30,7 @@ server <- function(input, output) {
         "Time: " , as.character(value())
     ))
     observeEvent(input$error, {stop("Generated an error")})
+    observeEvent(input$quit, {quit(save = "no")})
 }
 
 # Run the application 
