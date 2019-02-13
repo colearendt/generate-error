@@ -3,10 +3,10 @@ title: Error Generator
 username: cole
 account: cole
 server: colorado.rstudio.com
-hostUrl: http://colorado.rstudio.com:3939/__api__
+hostUrl: https://colorado.rstudio.com/rsc/__api__
 appId: 1148
 bundleId: 15161
-url: http://colorado.rstudio.com:3939/generate-error/
+url: https://colorado.rstudio.com/rsc/generate-error/
 when: 1535032132.72424
 asMultiple: FALSE
 asStatic: FALSE
